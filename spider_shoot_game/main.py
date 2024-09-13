@@ -7,13 +7,15 @@ from OpenGL.GLU import *
 
 from constants import *
 from game import Game
-
+from utils import *
 
 
 def main():
+    get_window_size()
     pygame.init()
     pygame.mixer.init()
     pygame.font.init()
+    clock = pygame.time.Clock() # for fps
     
     
     pygame.display.gl_set_attribute(pygame.GL_CONTEXT_MAJOR_VERSION, 3)
@@ -21,10 +23,10 @@ def main():
     pygame.display.gl_set_attribute(pygame.GL_CONTEXT_PROFILE_MASK, pygame.GL_CONTEXT_PROFILE_CORE)
     
     pygame.display.set_caption("Spider Shooter")
-    pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT), DOUBLEBUF | OPENGL)
+    pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT), DOUBLEBUF | OPENGL)
     
-    # glClearColor(0.0, 0.0, 0.0, 1.0)
-    # glViewport(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)
+    glClearColor(0.0, 0.0, 0.0, 1.0)
+    glViewport(0, 0, WINDOW_WIDTH, WINDOW_HEIGHT)
     
     glMatrixMode(GL_PROJECTION)
     glLoadIdentity()
@@ -57,9 +59,10 @@ def main():
                 if event.key == K_SPACE:
                     game.shoot_bullet()
         
-            elif event.type == KEYUP:
+            elif event.type == KEYUP: # for stopping the gun
                 if event.key == K_RIGHT or event.key == K_LEFT or event.key == K_UP or event.key == K_DOWN:
                     game.gun_movement = 's'
+            
                 
                 
                 # for closing game
@@ -67,10 +70,10 @@ def main():
                     running = False
                 # for restarting game
                 if event.key == K_r:
-                    game = Game()
+                    game.restart_game()
         
         
-        # clock.tick(120)
+        clock.tick(120)
         game.render()
         pygame.display.flip()
         pygame.time.wait(20)
