@@ -66,8 +66,8 @@ def main():
                 if event.key == K_q:
                     running = False
                 # for restarting game
-                if event.key == K_r:
-                    game = Game()
+                # if event.key == K_r:
+                #     game = Game()
      
 
         # for moving background
@@ -80,7 +80,7 @@ def main():
 
         
         # clock.tick(120)
-        game.update()
+        game.render()
         pygame.display.flip()
         pygame.time.wait(10)
 

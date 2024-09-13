@@ -215,7 +215,7 @@ class Game:
         self.draw_text(texture_id, SCREEN_WIDTH // 2 - text_width // 2, SCREEN_HEIGHT // 2, text_width, text_height)
    
 
-    def update(self):
+    def render(self):
         if self.is_game_over:
             # pass
             self.draw_game_over()
