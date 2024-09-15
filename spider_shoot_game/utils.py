@@ -77,5 +77,5 @@ def get_window_size():
     global WINDOW_WIDTH, WINDOW_HEIGHT
     user32 = ctypes.windll.user32
     (w,h) = user32.GetSystemMetrics(0), user32.GetSystemMetrics(1)
-    WINDOW_WIDTH = w
-    WINDOW_HEIGHT = h
+    WINDOW_WIDTH = w-50
+    WINDOW_HEIGHT = h-30
