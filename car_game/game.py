@@ -57,48 +57,90 @@ class Game:
     
     def draw_car(self):
 
-        self.draw_rounded_rectangle(self.car_x, self.car_y, CAR_WIDTH, CAR_HEIGHT, 20)
+        self.draw_rounded_rectangle(self.car_x, self.car_y, CAR_WIDTH, CAR_HEIGHT, )
+        
+            
         if self.is_moving_right:
-            self.wheel_rotation_angle -= 5
+            self.wheel_rotation_angle += self.background_speed
         elif self.is_moving_left:
-            self.wheel_rotation_angle += 5
+            self.wheel_rotation_angle +=  self.background_speed
+        
  
  
         # Draw car wheels
+        s_wheel_x = self.car_x + CAR_WIDTH / 6
         glPushMatrix()
-        glTranslatef(self.car_x + CAR_WIDTH / 4, self.car_y, 0)
+        glTranslatef(s_wheel_x, self.car_y, 0)
         glRotatef(self.wheel_rotation_angle, 0, 0, 1)
         self.draw_wheel(0, 0, CAR_WHEEL_RADIUS)
         glPopMatrix()
 
         glPushMatrix()
-        glTranslatef(self.car_x + CAR_WIDTH / 4, self.car_y, 0)
+        glTranslatef(s_wheel_x, self.car_y, 0)
         self.draw_wheel_arch(0, 0, CAR_WHEEL_RADIUS)
         glPopMatrix()
         
-
+        s_wheel_x  = self.car_x +  CAR_WIDTH - CAR_WIDTH / 6
         glPushMatrix()
-        glTranslatef(self.car_x + 3 * CAR_WIDTH / 4, self.car_y, 0)
+        glTranslatef(s_wheel_x, self.car_y, 0)
         glRotatef(self.wheel_rotation_angle, 0, 0, 1)
         self.draw_wheel(0, 0, CAR_WHEEL_RADIUS)
         glPopMatrix()
         
         glPushMatrix()
-        glTranslatef(self.car_x + 3 * CAR_WIDTH / 4, self.car_y, 0)
+        glTranslatef(s_wheel_x, self.car_y, 0)
         self.draw_wheel_arch(0, 0, CAR_WHEEL_RADIUS)
         glPopMatrix()
         
- 
 
-    def draw_rounded_rectangle(self, x, y, width, height, radius):
-        # Draw center rectangle (without corners)
+
+    def draw_rounded_rectangle(self, x, y, width, height, ):
+        # draw left rectangle
+        s_x = x
+        s_y = y
+        e_x = s_x + width/4
+        e_y = s_y + height/1.9
         glBegin(GL_QUADS)
-        glColor3f(0.0, 0.5, 1.0)  # Car body color
-        glVertex2f(x + radius, y)  # Bottom-left to right of corner
-        glVertex2f(x + width - radius, y)
-        glVertex2f(x + width - radius, y + height)
-        glVertex2f(x + radius, y + height)
+        glColor3f(0.0, 0.5, 1.0)  
+        glVertex2f(s_x, s_y) 
+        glVertex2f(e_x, y)
+        glVertex2f(e_x, e_y)
+        glVertex2f(s_x, e_y)
         glEnd()
+        
+        # Draw center rectangle (without corners)
+        s_x = e_x
+        s_y = y
+        e_x = s_x + width/2
+        e_y = s_y + height
+        glBegin(GL_QUADS)
+        glColor3f(0.0, 0.5, 1.0)  
+        glVertex2f(s_x, s_y)  
+        glVertex2f(e_x, y)
+        glVertex2f(e_x, e_y)
+        glVertex2f(s_x, e_y)
+        glEnd()
+        
+        
+        # draw right rectangle
+        s_x = e_x
+        s_y = y
+        e_x = s_x + width/4
+        e_y = s_y + height/1.9
+        glBegin(GL_QUADS)
+        glColor3f(0.0, 0.5, 1.0)  
+        glVertex2f(s_x, s_y)  
+        glVertex2f(e_x, y)
+        glVertex2f(e_x, e_y)
+        glVertex2f(s_x, e_y)
+        glEnd()
+        
+        
+      
+        
+
+        
+        
 
   
     def draw_wheel_arch(self, x, y, radius):

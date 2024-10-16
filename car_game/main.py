@@ -72,7 +72,7 @@ def main():
         if game.is_moving_right:
             game.background_speed = -FAST_BACKGROUND_SPEED
         elif  game.is_moving_left:
-            game.background_speed = FAST_BACKGROUND_SPEED
+            game.background_speed = FAST_BACKGROUND_SPEED/2
         else:
             game.background_speed = BACKGROUND_SPEED
 
