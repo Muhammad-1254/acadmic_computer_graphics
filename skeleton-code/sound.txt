@@ -1,0 +1,6 @@
+//stop previous sound, if it is already playing
+	//PlaySound(NULL, 0, 0);
+	//play dead sound..
+	//PlaySound("sounds\\ouch.wav",NULL,SND_ASYNC);
+	//PlaySound("sounds\\jungle.wav", NULL, SND_LOOP | SND_ASYNC);
+	//PlaySound("shoot.wav", NULL, SND_LOOP | SND_ASYNC);

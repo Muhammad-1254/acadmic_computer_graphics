@@ -1,0 +1,16 @@
+I had the prob with error C2381: 'exit' : redefinition;
+ __declspec(noreturn) differs again, and by googling,
+ it can be solved by:
+
+To fix the error, right click on the project name in the
+ Solution Explorer tab and select
+ Properties -> C/C++ -> Preprocessor -> Preprocessor definitions 
+and append GLUT_BUILDING_LIB to the existing definitions, 
+seperated by semicolons.
+
+---------------------------------------------------------------
+
+#pragma comment(lib,"opengl32.lib")
+//#pragma comment(lib,"glu32.lib")
+//#pragma comment(lib,"glaux.lib")
+#pragma comment(lib,"glut32.lib")
