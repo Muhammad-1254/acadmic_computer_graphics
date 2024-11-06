@@ -1,0 +1,293 @@
+main: starting program!
+myreshape: worldextent=2.000000
+myreshape: worldwindow ll= -2.000000 -2.000000  ur= 2.000000 2.000000
+mykey: key=+  x=547  y=431
+mykey: key=+  x=547  y=431
+mykey: key=+  x=548  y=431
+mykey: key==  x=521  y=555
+mykey: key=+  x=521  y=555
+mykey: key=+  x=527  y=553
+mykey: key=+  x=527  y=553
+mykey: key=+  x=527  y=553
+mykey: key=+  x=527  y=553
+mykey: key=+  x=527  y=553
+mykey: key=+  x=527  y=553
+mykey: key=x  x=527  y=553
+mykey: key=x  x=527  y=553
+mykey: key=z  x=527  y=553
+mykey: key=z  x=527  y=553
+mykey: key=s  x=527  y=553
+mykey: key=s  x=527  y=553
+mykey: key=s  x=527  y=553
+mykey: key=m  x=527  y=553
+myspecialkey: key=102  x=520  y=370
+myspecialkey: key=102  x=520  y=370
+myspecialkey: key=102  x=520  y=370
+myspecialkey: key=101  x=520  y=370
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=3.000000
+myreshape: worldwindow ll= -3.000000 -3.000000  ur= 3.000000 3.000000
+myspecialkey: key=101  x=520  y=370
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=4.000000
+myreshape: worldwindow ll= -4.000000 -4.000000  ur= 4.000000 4.000000
+myspecialkey: key=103  x=520  y=370
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=3.000000
+myreshape: worldwindow ll= -3.000000 -3.000000  ur= 3.000000 3.000000
+myspecialkey: key=103  x=520  y=370
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=2.000000
+myreshape: worldwindow ll= -2.000000 -2.000000  ur= 2.000000 2.000000
+myspecialkey: key=103  x=520  y=370
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=1.000000
+myreshape: worldwindow ll= -1.000000 -1.000000  ur= 1.000000 1.000000
+myspecialkey: key=103  x=520  y=370
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=1.000000
+myreshape: worldwindow ll= -1.000000 -1.000000  ur= 1.000000 1.000000
+myspecialkey: key=103  x=520  y=370
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=1.000000
+myreshape: worldwindow ll= -1.000000 -1.000000  ur= 1.000000 1.000000
+myspecialkey: key=103  x=520  y=370
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=1.000000
+myreshape: worldwindow ll= -1.000000 -1.000000  ur= 1.000000 1.000000
+myspecialkey: key=103  x=520  y=370
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=1.000000
+myreshape: worldwindow ll= -1.000000 -1.000000  ur= 1.000000 1.000000
+myspecialkey: key=101  x=520  y=370
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=2.000000
+myreshape: worldwindow ll= -2.000000 -2.000000  ur= 2.000000 2.000000
+myspecialkey: key=101  x=520  y=370
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=3.000000
+myreshape: worldwindow ll= -3.000000 -3.000000  ur= 3.000000 3.000000
+myspecialkey: key=103  x=520  y=370
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=2.000000
+myreshape: worldwindow ll= -2.000000 -2.000000  ur= 2.000000 2.000000
+myspecialkey: key=103  x=520  y=370
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=1.000000
+myreshape: worldwindow ll= -1.000000 -1.000000  ur= 1.000000 1.000000
+myspecialkey: key=103  x=520  y=370
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=1.000000
+myreshape: worldwindow ll= -1.000000 -1.000000  ur= 1.000000 1.000000
+myspecialkey: key=103  x=520  y=370
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=1.000000
+myreshape: worldwindow ll= -1.000000 -1.000000  ur= 1.000000 1.000000
+myspecialkey: key=101  x=520  y=370
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=2.000000
+myreshape: worldwindow ll= -2.000000 -2.000000  ur= 2.000000 2.000000
+myspecialkey: key=101  x=520  y=370
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=3.000000
+myreshape: worldwindow ll= -3.000000 -3.000000  ur= 3.000000 3.000000
+myspecialkey: key=101  x=520  y=370
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=4.000000
+myreshape: worldwindow ll= -4.000000 -4.000000  ur= 4.000000 4.000000
+myspecialkey: key=101  x=520  y=370
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=5.000000
+myreshape: worldwindow ll= -5.000000 -5.000000  ur= 5.000000 5.000000
+myspecialkey: key=101  x=520  y=370
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=6.000000
+myreshape: worldwindow ll= -6.000000 -6.000000  ur= 6.000000 6.000000
+myspecialkey: key=101  x=520  y=370
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=7.000000
+myreshape: worldwindow ll= -7.000000 -7.000000  ur= 7.000000 7.000000
+myspecialkey: key=101  x=520  y=370
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=8.000000
+myreshape: worldwindow ll= -8.000000 -8.000000  ur= 8.000000 8.000000
+myspecialkey: key=103  x=520  y=370
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=7.000000
+myreshape: worldwindow ll= -7.000000 -7.000000  ur= 7.000000 7.000000
+myspecialkey: key=103  x=520  y=370
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=6.000000
+myreshape: worldwindow ll= -6.000000 -6.000000  ur= 6.000000 6.000000
+myspecialkey: key=103  x=520  y=370
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=5.000000
+myreshape: worldwindow ll= -5.000000 -5.000000  ur= 5.000000 5.000000
+myspecialkey: key=103  x=520  y=370
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=4.000000
+myreshape: worldwindow ll= -4.000000 -4.000000  ur= 4.000000 4.000000
+myspecialkey: key=103  x=520  y=370
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=3.000000
+myreshape: worldwindow ll= -3.000000 -3.000000  ur= 3.000000 3.000000
+myspecialkey: key=103  x=520  y=370
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=2.000000
+myreshape: worldwindow ll= -2.000000 -2.000000  ur= 2.000000 2.000000
+myspecialkey: key=103  x=520  y=370
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=1.000000
+myreshape: worldwindow ll= -1.000000 -1.000000  ur= 1.000000 1.000000
+myspecialkey: key=103  x=822  y=567
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=1.000000
+myreshape: worldwindow ll= -1.000000 -1.000000  ur= 1.000000 1.000000
+myspecialkey: key=103  x=822  y=567
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=1.000000
+myreshape: worldwindow ll= -1.000000 -1.000000  ur= 1.000000 1.000000
+myspecialkey: key=103  x=822  y=567
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=1.000000
+myreshape: worldwindow ll= -1.000000 -1.000000  ur= 1.000000 1.000000
+myspecialkey: key=103  x=822  y=567
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=1.000000
+myreshape: worldwindow ll= -1.000000 -1.000000  ur= 1.000000 1.000000
+myspecialkey: key=103  x=822  y=567
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=1.000000
+myreshape: worldwindow ll= -1.000000 -1.000000  ur= 1.000000 1.000000
+myspecialkey: key=103  x=822  y=567
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=1.000000
+myreshape: worldwindow ll= -1.000000 -1.000000  ur= 1.000000 1.000000
+myspecialkey: key=103  x=822  y=567
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=1.000000
+myreshape: worldwindow ll= -1.000000 -1.000000  ur= 1.000000 1.000000
+myspecialkey: key=103  x=822  y=567
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=1.000000
+myreshape: worldwindow ll= -1.000000 -1.000000  ur= 1.000000 1.000000
+myspecialkey: key=103  x=822  y=567
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=1.000000
+myreshape: worldwindow ll= -1.000000 -1.000000  ur= 1.000000 1.000000
+myspecialkey: key=101  x=822  y=567
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=2.000000
+myreshape: worldwindow ll= -2.000000 -2.000000  ur= 2.000000 2.000000
+myspecialkey: key=103  x=822  y=567
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=1.000000
+myreshape: worldwindow ll= -1.000000 -1.000000  ur= 1.000000 1.000000
+myspecialkey: key=103  x=822  y=567
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=1.000000
+myreshape: worldwindow ll= -1.000000 -1.000000  ur= 1.000000 1.000000
+myspecialkey: key=103  x=822  y=567
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=1.000000
+myreshape: worldwindow ll= -1.000000 -1.000000  ur= 1.000000 1.000000
+myspecialkey: key=103  x=822  y=567
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=1.000000
+myreshape: worldwindow ll= -1.000000 -1.000000  ur= 1.000000 1.000000
+myspecialkey: key=101  x=822  y=567
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=2.000000
+myreshape: worldwindow ll= -2.000000 -2.000000  ur= 2.000000 2.000000
+myspecialkey: key=101  x=822  y=567
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=3.000000
+myreshape: worldwindow ll= -3.000000 -3.000000  ur= 3.000000 3.000000
+myspecialkey: key=101  x=822  y=567
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=4.000000
+myreshape: worldwindow ll= -4.000000 -4.000000  ur= 4.000000 4.000000
+myspecialkey: key=101  x=822  y=567
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=5.000000
+myreshape: worldwindow ll= -5.000000 -5.000000  ur= 5.000000 5.000000
+myspecialkey: key=101  x=822  y=567
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=6.000000
+myreshape: worldwindow ll= -6.000000 -6.000000  ur= 6.000000 6.000000
+myspecialkey: key=103  x=822  y=567
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=5.000000
+myreshape: worldwindow ll= -5.000000 -5.000000  ur= 5.000000 5.000000
+myspecialkey: key=103  x=822  y=567
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=4.000000
+myreshape: worldwindow ll= -4.000000 -4.000000  ur= 4.000000 4.000000
+myspecialkey: key=103  x=822  y=567
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=3.000000
+myreshape: worldwindow ll= -3.000000 -3.000000  ur= 3.000000 3.000000
+myspecialkey: key=103  x=822  y=567
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=2.000000
+myreshape: worldwindow ll= -2.000000 -2.000000  ur= 2.000000 2.000000
+myspecialkey: key=103  x=822  y=567
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=1.000000
+myreshape: worldwindow ll= -1.000000 -1.000000  ur= 1.000000 1.000000
+myspecialkey: key=103  x=822  y=567
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=1.000000
+myreshape: worldwindow ll= -1.000000 -1.000000  ur= 1.000000 1.000000
+myspecialkey: key=103  x=822  y=567
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=1.000000
+myreshape: worldwindow ll= -1.000000 -1.000000  ur= 1.000000 1.000000
+myspecialkey: key=101  x=822  y=567
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=2.000000
+myreshape: worldwindow ll= -2.000000 -2.000000  ur= 2.000000 2.000000
+myspecialkey: key=101  x=822  y=567
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=3.000000
+myreshape: worldwindow ll= -3.000000 -3.000000  ur= 3.000000 3.000000
+myspecialkey: key=101  x=822  y=567
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=4.000000
+myreshape: worldwindow ll= -4.000000 -4.000000  ur= 4.000000 4.000000
+myspecialkey: key=101  x=822  y=567
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=5.000000
+myreshape: worldwindow ll= -5.000000 -5.000000  ur= 5.000000 5.000000
+myspecialkey: key=103  x=822  y=567
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=4.000000
+myreshape: worldwindow ll= -4.000000 -4.000000  ur= 4.000000 4.000000
+myspecialkey: key=103  x=822  y=567
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=3.000000
+myreshape: worldwindow ll= -3.000000 -3.000000  ur= 3.000000 3.000000
+myspecialkey: key=103  x=822  y=567
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=2.000000
+myreshape: worldwindow ll= -2.000000 -2.000000  ur= 2.000000 2.000000
+myspecialkey: key=103  x=822  y=567
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=1.000000
+myreshape: worldwindow ll= -1.000000 -1.000000  ur= 1.000000 1.000000
+myspecialkey: key=103  x=822  y=567
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=1.000000
+myreshape: worldwindow ll= -1.000000 -1.000000  ur= 1.000000 1.000000
+myspecialkey: key=103  x=822  y=567
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=1.000000
+myreshape: worldwindow ll= -1.000000 -1.000000  ur= 1.000000 1.000000
+myspecialkey: key=101  x=822  y=567
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=2.000000
+myreshape: worldwindow ll= -2.000000 -2.000000  ur= 2.000000 2.000000
+myspecialkey: key=101  x=822  y=567
+myspecialkey: recalculate Projection & redisplay
+myreshape: worldextent=3.000000
+myreshape: worldwindow ll= -3.000000 -3.000000  ur= 3.000000 3.000000
