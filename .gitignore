@@ -1,6 +1,5 @@
 *.sln
 *.db
-Debug
 *.vcpoj
 *.vcxproj
 *.vcxproj.filters
@@ -10,6 +9,9 @@ Debug
 *.vcxproj.*.users
 
 .vs
+
+Debug
+Release
 
 
 # Created by https://www.toptal.com/developers/gitignore/api/c++,python,opencv
